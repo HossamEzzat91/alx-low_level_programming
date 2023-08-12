@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char ix;
- for (ix = '0' ; ix <= '9' ; ix++)
+int ix;
+ for (ix = 0 ; ix <= 9 ; ix++)
 {
-putchar(ix);
+putchar(ix + '0' );
 putchar(',');
 putchar(' ');
 }
