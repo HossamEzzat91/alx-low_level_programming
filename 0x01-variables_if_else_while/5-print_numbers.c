@@ -6,14 +6,10 @@
  */
 int main(void)
 {
-char ix;
- for (ix = '0' ; ix <= '9' ; ix++)
+char i;
+for (i = 0 ; i <= 9 ; i++)
 {
-putchar(ix);
-}
-for (ix = 'a' ; ix <= 'f' ; ix++)
-{
-putchar(ix);
+  printf("%d", i);
 }
  
 putchar('\n');
