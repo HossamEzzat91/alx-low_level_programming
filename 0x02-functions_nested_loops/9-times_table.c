@@ -15,15 +15,24 @@ for (i = 0; i <= 9; i++)
 {
 for (x = 0; x <= 9; x++)
 {
-y = i * x ;  
-_putchar(y + '0');
-if(i <= 9)
+y = i * x;
+if (x != 0)
 {
 _putchar(',');
 _putchar(' ');
 }
+if (y > 9)
+{
+_putchar((y / 10) + '0');
+_putchar((y % 10) + '0');
 }
-_putchar('\n'); 
+else
+{
+_putchar(' ');
+_putchar(y + '0');
+}
+}
+_putchar('\n');
 }
 return;
 }
