@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-  /*int i;
-char str[] = "_putchar";
+int i = 0;
+char word[] = "_putchar";
 while(i <= 7)
 {
-_putchar(str[i]);
-}*/
-_putchar('h');
+_putchar(word[i]);
+i++;
+}
+_putchar('\n');
 return (0);
 }
