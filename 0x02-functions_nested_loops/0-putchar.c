@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - check the code
  *
@@ -9,7 +8,7 @@ int main(void)
 {
 int i = 0;
 char word[] = "_putchar";
-while(i <= 7)
+while (i <= 7)
 {
 _putchar(word[i]);
 i++;
