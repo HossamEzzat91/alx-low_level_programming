@@ -1,30 +1,29 @@
 #include "main.h"
 
 /**
- * print_sign - check char.
+ * jack_bauer - every minute.
  *
- * Return:  1 if positive.
- *  @n: The number to check
+ * Return:  void.
+ *
  */
 void jack_bauer(void)
 {
 int h;
 int m;
-for ( h = 0; h <= 23; h++)
+for (h = 0; h <= 23; h++)
 {
 for (m = 0; m <= 59; m++)
 {
-_putchar(h / 10) + '0')
-_putchar(h % 10) + '0')
-_putchar(':')
-_putchar(m / 10) + '0')
-_putchar(m % 10) + '0')
-_putchar('\n')
+_putchar((h / 10) + '0');
+_putchar((h % 10) + '0');
+_putchar(':');
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
+_putchar('\n');
 }
 }
 return;
 }
-
 
 
 
