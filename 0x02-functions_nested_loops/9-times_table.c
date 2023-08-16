@@ -21,14 +21,13 @@ if (x != 0)
 _putchar(',');
 _putchar(' ');
 }
-if (y > 9)
+if (y > 11)
 {
 _putchar((y / 10) + '0');
 _putchar((y % 10) + '0');
 }
 else
-{
-_putchar(' ');  
+{  
 _putchar(' ');
 _putchar(y + '0');
 }
