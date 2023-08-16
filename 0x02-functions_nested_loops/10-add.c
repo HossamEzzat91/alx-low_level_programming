@@ -2,15 +2,14 @@
 
 /**
  * add - adds two intger.
- * @i , @x -take variable
+ * @i: take variable
+ * @x: take variable
  * Return:  result.
  *
  */
 int add(int i, int x)
 {
 int result;
-result =i + x;
+result = i + x;
 return (result); 
-}
-
 
