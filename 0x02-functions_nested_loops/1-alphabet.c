@@ -1,11 +1,14 @@
-#include "main.h"
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+#include"main.h"
+/*
+a function that prints the alphabet, in lowercase, followed by a new line.
+*/
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+char i;
+for (i = 'a'; i<= 'z'; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+return;
 }
