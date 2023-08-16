@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_sign - check char.
+ * print_sign - check char.
  *
  * Return:  1 if positive.
  *  @n: The number to check
