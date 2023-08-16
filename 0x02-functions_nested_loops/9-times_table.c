@@ -21,7 +21,7 @@ if (x != 0)
 _putchar(',');
 _putchar(' ');
 }
-if (y > 11)
+if (y >= 10)
 {
 _putchar((y / 10) + '0');
 _putchar((y % 10) + '0');
