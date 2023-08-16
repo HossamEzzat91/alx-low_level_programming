@@ -6,7 +6,7 @@
  * Return:  1 if lower case.
  *  @c: The character to check
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 if (isalpha(c))
 {
