@@ -6,8 +6,10 @@
  * Return:  result.
  *
  */
-int add(int i, int x)
+int add(int x, int)
 {
+int i;
+int x;
 int result;
 result =i + x;
 return(result); 
