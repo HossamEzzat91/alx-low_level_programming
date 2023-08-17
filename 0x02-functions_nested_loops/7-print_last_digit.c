@@ -15,10 +15,10 @@ lstdg = -1* (n % 10);
 }
 else
 {
-lstdg = n % 10
+lstdg = n % 10;
 }
-_putchar(lstdg + '0') 
-  return (lstdg);
+_putchar(lstdg + '0'); 
+return (lstdg);
 }
 
 
