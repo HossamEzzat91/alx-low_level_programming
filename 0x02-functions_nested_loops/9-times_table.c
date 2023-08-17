@@ -26,7 +26,7 @@ if (y >= 10)
 _putchar((y / 10) + '0');
 _putchar((y % 10) + '0');
 }
-else if ( x == 0)
+else if (x == 0)
 {
 _putchar(y + '0');
 }
@@ -35,7 +35,7 @@ else
 _putchar(' ');
 _putchar(y + '0');
 }
-} 
+}
 _putchar('\n');
 }
 return;
