@@ -18,6 +18,10 @@ if(i != 98)
 printf("%d",i);
 printf(", ");
 }
+else
+{   
+printf("%d".i);
+}
 }
 }
 else
@@ -28,6 +32,10 @@ if(i != 98)
 {
 printf("%d",i);
 printf(", ");
+}
+else
+{
+printf("%d".i);
 }
 }
 }
