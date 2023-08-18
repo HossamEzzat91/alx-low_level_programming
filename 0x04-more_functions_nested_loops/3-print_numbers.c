@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_number -print from 0-9
+ * print_numbers -print from 0-9
  *write characters in lowercase
  *
  * Return: void.
