@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_squar -print from 0-9
+ * print_square -print from 0-9
  *@size: is the number of time char '_' print
  *
  * Return: void.
