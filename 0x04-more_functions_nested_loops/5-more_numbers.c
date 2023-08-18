@@ -10,21 +10,18 @@ void more_numbers(void)
 {
 int i;
 int x;
+int y;
 for (i = 0; i <= 9; i++)
-{
-_putchar('\n');  
+{  
 for (x = 0; x <= 14; x++)
 {
-
-if (x >= 10)
+y = x;
+if (x > 9)
 {
-_putchar((x / 10) + '0');
-_putchar((x % 10) + '0');
+_putchar(1 + '0');
+y = x % 10;
 }
-else
-{
-_putchar(x + '0');
-}
+_putchar(y + '0');
 }
 _putchar('\n');
 }
