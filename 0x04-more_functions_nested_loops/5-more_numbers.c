@@ -12,7 +12,7 @@ int i;
 int x;
 int y;
 for (i = 0; i <= 9; i++)
-{  
+{
 for (x = 0; x <= 14; x++)
 {
 y = x;
