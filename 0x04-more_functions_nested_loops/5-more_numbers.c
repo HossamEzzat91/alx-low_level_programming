@@ -12,6 +12,7 @@ int i;
 int x;
 for (i = 0; i <= 9; i++)
 {
+_putchar('\n');  
 for (x = 0; x <= 14; x++)
 {
 
@@ -25,7 +26,6 @@ else
 _putchar(x + '0');
 }
 }
-_putchar('\n');
 _putchar('\n');
 }
 return;
