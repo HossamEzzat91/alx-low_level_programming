@@ -1,0 +1,31 @@
+#include "main.h"
+
+/**
+ * more_numbers - 9 times table.
+ *
+ * Return:  void.
+ *
+ */
+void more_numbers(void)
+{
+int i;
+int x;
+for (i = 0; i <= 9; i++)
+{
+for (x = 0; x <= 14; x++)
+{
+
+if (x >= 10)
+{
+_putchar((y / 10) + '0');
+_putchar((y % 10) + '0');
+}
+else
+{
+_putchar(y + '0');
+}
+}
+_putchar('\n');
+}
+return;
+}
