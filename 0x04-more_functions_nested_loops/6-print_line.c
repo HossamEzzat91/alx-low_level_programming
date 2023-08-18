@@ -1,7 +1,7 @@
 #include"main.h"
 /**
  * print_line -print from 0-9
- *write characters in lowercase
+ *@n: is the number of time char '_' print
  *
  * Return: void.
  */
@@ -15,12 +15,12 @@ _putchar('\n');
 }
 else
 {
-
 for (i = 1; i <= n; i++)
 {
 _putchar(c);
 }
-}
+
 _putchar('\n');
+}
 return;
 }
