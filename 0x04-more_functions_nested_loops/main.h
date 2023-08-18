@@ -11,3 +11,4 @@ void print_diagonal(int n);
 void print_square(int size);
 #include <stdio.h>
 void fizz_buzz(void);
+void print_triangle(int size);
