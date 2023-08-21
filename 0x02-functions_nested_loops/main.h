@@ -13,3 +13,4 @@ int _abs(int);
 #include<stdlib.h>
 #include<stdio.h>
 int print_last_digit(int);
+void print_times_table(int n);
