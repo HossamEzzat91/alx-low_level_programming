@@ -2,11 +2,10 @@
 /**
  * _puts - print string follow by newline
  * @str: pointer of type char
- * Return: string lenght
+ * Return: void
  */
 void _puts(char *str)
 {
-
 puts(str);
 }
 
