@@ -12,7 +12,7 @@ int lent = strlen(str);
 j = lent / 2;
 if (lent % 2 != 0)
 {   
-j++;
+j = ((lent - 1) / 2 );
 }  
 for (i = lent / 2 ; str [i] != '\0'; i++)
 {
