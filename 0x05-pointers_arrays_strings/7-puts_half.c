@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * puts2 - function that prints every other character of a string
+ * puts_half - function that prints every other character of a string
  * @str: pointer of type char
  * Return: void
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 int i = 0;
 int lent = strln(str);
