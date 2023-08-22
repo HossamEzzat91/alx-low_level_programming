@@ -11,9 +11,10 @@ int j;
 int lent = strlen(str);
 j = lent / 2;
 if (lent % 2 != 0)
-{   
+{
 j = ((lent - 1) / 2);
-}  
+j++;
+}
 for (i = j ; str [i] != '\0'; i++)
 {
 _putchar(str[i]);
