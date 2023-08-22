@@ -7,7 +7,7 @@
  */
 void print_array(int *a, int n)
 {
-int i = 0;
+int i;
 
 for (i = 0; i < n; i++)
 {
@@ -20,5 +20,5 @@ else
 printf("%d", a[i]);
 }
 }
-_putchar('\n');
+printf("\n");
 }
