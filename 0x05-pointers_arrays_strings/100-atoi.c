@@ -6,16 +6,16 @@
  */
 int _atoi(char *s)
 {
-int num = 0;
+unsigned int num = 0;
 int sign = 1;
-int i =0;
-while ( s[i] != '\0')
+int i = 0;
+while (s[i] != '\0')
 {
-if (s[i] == ' ' || s[i] =='\t' || s[i] == '\n')
+if (s[i] == ' ' || s[i] == '\t' || s[i] == '\n')
 {
 i++;
 }
-if(s[i] == '-')
+if (s[i] == '-')
 {
 sign *= -1;
 }
@@ -29,5 +29,5 @@ break;
 }
 ++i;
 }
-return (num * sign);
+return ((num *sign));
 }
