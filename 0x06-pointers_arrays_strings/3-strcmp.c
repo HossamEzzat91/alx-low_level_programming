@@ -13,10 +13,10 @@ while (s1[i] != '\0' && s2[j] != '\0')
 {
 if (s1[i] != s2[j])
 {
-return (((int)*s1 - '0') - ((int)*s2 - '0'));
+return ((int) s1[i] - (int) s2[i]);
 }
 i++;
 j++;
 }
-return (((int)*s1 - '0') - ((int)*s2 - '0'));
+return ((int) s1[i] - (int) s2[i]);
 }
