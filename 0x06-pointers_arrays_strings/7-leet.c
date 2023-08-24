@@ -1,5 +1,5 @@
 #include "main.h"
-77;30604;0c/**
+/**
  * leet - print reverse string follow by newline
  * @s: pointer of type char
  * Return: upper version of char
