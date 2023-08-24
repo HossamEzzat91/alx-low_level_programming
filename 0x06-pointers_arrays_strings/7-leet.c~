@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * leet - print reverse string follow by newline
+ * @s: pointer of type char
+ * Return: upper version of char
+ */
+char *leet(char *s)
+{
+char *c = s;
+int j = 0;
+char key[] = {'A', 'E', 'O', 'T', 'L', '\0'};
+int val[] = {4, 3, 0, 7, 1};
+while (*s)
+{
+for (j = 0; j < 5; j++)
+{
+if(*s == key[j] || *s == key[j] + 32)
+{
+*s = val[j] + '0';
+}
+}
+s++;
+}
+return (c);
+}
