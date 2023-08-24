@@ -16,6 +16,10 @@ dest[i] = src[j];
 i++;
 j++;
 }
+while (i < n)
+{
 dest[i] = '\0';
+i++;
+}
 return (dest);
 }
