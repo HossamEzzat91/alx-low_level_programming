@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * rot13 - print reverse string follow by newline
+ * @s: pointer of type char
+ * Return: upper version of char
+ */
+char *rot13(char *s)
+{
+char *c = s;
+int j;
+char src[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char dest[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+while (*s)
+{
+for (j = 0; j < 52; j++)
+{
+if (*s == src[j])
+{
+*s = dest[j];
+break;
+}
+}
+s++;
+}
+return (c);
+}
