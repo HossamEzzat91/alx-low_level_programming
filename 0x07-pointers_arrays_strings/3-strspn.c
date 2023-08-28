@@ -16,7 +16,7 @@ if (s[i] == accept[j])
 {
 break;
 }
-j++
+j++;
 }
 if (accept[j] == '\0')
 {
