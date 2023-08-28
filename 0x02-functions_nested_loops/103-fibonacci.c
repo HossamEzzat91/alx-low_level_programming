@@ -6,31 +6,25 @@
  */
 int main(void)
 {
-long y = 2;
-int x = 1;
+long y = 1;
 long prev = 0;
 long temp = 0;
 long sum = 0;
-while (x <= 50)
+while (1)
 {
 temp = y;
 y = y + prev;
 prev = temp;
-if ( y % 2 == 0 && sum <= 4000000)
+if (  y > 4000000)
 {   
-sum = sum + y;
-printf("%ld", sum);
-}
-x++;
-if (sum <= 4000000)
-{
-printf(", ");
-}
-else
-{
 break;
 }
+if (y % 2 == 0)
+{
+sum = sum + y;
 }
+}
+printf("%ld", sum); 
 printf("\n");
 return (0);
 }
