@@ -17,7 +17,7 @@ y = y + prev;
 prev = temp;
 printf("%lu", y);
 x++;
-if (x <= 98)
+if (x < 98)
 {
 printf(", ");
 }
