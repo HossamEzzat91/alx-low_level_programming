@@ -16,28 +16,29 @@ for (i = 0; i <= n; i++)
 for (x = 0; x <= n; x++)
 {
 y = i * x;
-if ( x != 0)
+if ( y <= 9)
 {
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar(y + '0');
+} 
 }
 if (y >= 10 && y < 100 )
 {
+_putchar(',');
+_putchar(' ');
 _putchar(' ');
 _putchar((y / 10) + '0');
 _putchar((y % 10) + '0');
 }
 if (y >= 100 && x )
 {
+_putchar(',');
 _putchar((y / 100) + '0');
 _putchar(((y / 10) % 10) + '0');
 _putchar((y % 10) + '0');
-}
-else 
-{
-_putchar(' ');
-_putchar(' ');
-_putchar(y + '0');
 }
 }
 _putchar('\n');
