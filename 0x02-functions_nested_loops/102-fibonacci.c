@@ -17,7 +17,7 @@ y = y + prev;
 prev = temp;
 printf("%ld", y);
 x++;
-if (x < 50)
+if (x <= 50)
 {
 printf(", ");
 }
