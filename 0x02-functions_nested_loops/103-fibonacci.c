@@ -15,8 +15,8 @@ while (1)
 temp = y;
 y = y + prev;
 prev = temp;
-if (  y > 4000000)
-{   
+if (y > 4000000)
+{
 break;
 }
 if (y % 2 == 0)
@@ -24,8 +24,7 @@ if (y % 2 == 0)
 sum = sum + y;
 }
 }
-printf("%ld", sum); 
+printf("%ld", sum);
 printf("\n");
 return (0);
 }
-
