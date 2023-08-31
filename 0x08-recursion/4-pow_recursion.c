@@ -18,7 +18,7 @@ return (1);
 }
 else
 {
-i *= factorial(x, y - 1);
+i *= _pow_recursion(x, y - 1);
 }
 return (i);
 }
