@@ -15,9 +15,9 @@ if( size == 0 || r == 0)
 return (0);
 }
 while (size > 0)
-{   
+{
 r[size] = c;
 size--;
-return(r);
 }
+ryeturn (r);
 }
