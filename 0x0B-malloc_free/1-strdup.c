@@ -9,15 +9,14 @@
 char *_strdup(char *str)
 {
 char *r;
-unsigned int i, size = 0;
+int i, size = 0;
 if (str == 0)
 {
 return (0);
 }
-while (*str != '\0')
+while (str[size] != '\0')
 {
 size++;
-str++;
 }
 r = malloc((size *sizeof(*str)) + 1);
 if (r == 0)
