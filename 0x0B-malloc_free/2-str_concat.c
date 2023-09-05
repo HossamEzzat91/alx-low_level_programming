@@ -12,11 +12,11 @@ char *r;
 int i, j, size1 = 0, size2 = 0;
 if (s1 == NULL)
 {
-s1 = '\0';
+s1 = "\0";
 }
 if (s2 == NULL)
 {
-s2 = '\0';
+s2 = "\0";
 }
 while (s1[size1] != '\0')
 {
