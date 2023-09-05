@@ -13,14 +13,14 @@ char *r;
 unsigned int i, size = 0;
 if (str == 0)
 {
-return(0);
+return (0);
 }
 while (*str != '\0')
 {
 size++;
 str++;
 }
-r = malloc(size + 1);
+r = malloc(size * sizeof(*str) + 1);
 if (size == 0 || r == 0)
 {
 return (0);
