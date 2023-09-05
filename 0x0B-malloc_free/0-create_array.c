@@ -19,5 +19,5 @@ while (size > 0)
 r[size] = c;
 size--;
 }
-ryeturn (r);
+return (r);
 }
