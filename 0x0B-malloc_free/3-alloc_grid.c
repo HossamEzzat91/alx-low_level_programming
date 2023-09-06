@@ -24,7 +24,7 @@ for (i = 0; i < height; i++)
 r[i] = (int *)malloc(width *sizeof(int *));
 if (r[i] == 0)
 {   
-return (NULL):
+return (NULL);
 }
 for (j = 0 ; j < width; j++)
 {
