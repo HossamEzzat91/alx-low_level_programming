@@ -14,14 +14,14 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-r = malloc(height * sizeof(int *));
+r = malloc(height * sizeof(*r));
 if (r == 0)
 {
 return (0);
 }
 for (i = 0; i < height; i++)
 {
-r[i] = malloc(width * sizeof(int **));
+r[i] = malloc(width * sizeof(**r));
 if (r[i] == 0)
 {
 for (j = 0; j < i; j++)
