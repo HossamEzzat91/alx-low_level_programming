@@ -13,11 +13,11 @@ int i;
 int num = 0;
 if (argc == 1)
 {
-printf("%d\n",0);
-return(0);
+printf("%d\n", 0);
+return (0);
 }
-for (i = 1; i< argc; i++)
-{   
+for (i = 1; i < argc; i++)
+{
 num = atoi(argv[i]);
 if (num == 0 && argv[i][0] != '0')
 {
