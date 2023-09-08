@@ -5,9 +5,9 @@
  * Return: pointer to the array.
  *
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
-int  *r;
+int *r;
 r = malloc(r);
 if (r == 0)
 {
