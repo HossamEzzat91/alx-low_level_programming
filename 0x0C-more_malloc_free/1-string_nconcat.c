@@ -42,8 +42,9 @@ r[i] = s1[i];
 }
 for (j = 0; j < n; j++)
 {
-r[size1 + j] = s2[j];
+r[i] = s2[j];
+i++;
 }
-r[size1 + size2] = '\0';
+r[i] = '\0';
 return (r);
 }
