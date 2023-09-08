@@ -15,7 +15,7 @@ if (size == 0 || nmemb == 0)
 {
 return (0);
 }
-r = malloc(nmemb * size);
+r = malloc(sizeof(int) * nmemb);
 if (r == 0)
 {
 return (0);
@@ -23,7 +23,7 @@ return (0);
 
 for (i = 0; i < nmemb; i++)
 {
-((char *)r)[i * size] = 0;
+  ((char *)r)[i * sizeof(int)] = 0;
 }
 return (r);
 }
