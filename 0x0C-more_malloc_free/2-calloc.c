@@ -15,7 +15,7 @@ if (size == 0 || nmemb == 0)
 {
 return (0);
 }
-r = malloc(sizeof(int) * nmemb);
+r = malloc(size * nmemb);
 if (r == 0)
 {
 return (0);
