@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * str_concat - a function  that returns a pointer to a newly allocated space,
- * @b: 
+ * malloc_checked- a function  that returns a pointer to a newly allocated space,
+ * @b:int 
  * Return: pointer to the array.
  *
  */
