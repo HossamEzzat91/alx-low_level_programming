@@ -19,7 +19,7 @@ if (r == 0)
 {
 return (0);
 }
-for (i = 0; i <= max - min; i++)
+for (i = 0; i < max - min; i++)
 {
 r[i] = min++;
 }
