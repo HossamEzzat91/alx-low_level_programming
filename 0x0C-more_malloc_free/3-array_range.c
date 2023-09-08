@@ -23,7 +23,7 @@ return (0);
 }
 for (i = 0; i < len; i++)
 {
-r[i] = min + 1;
+r[i] = min++;
 }
 return (r);
 }
