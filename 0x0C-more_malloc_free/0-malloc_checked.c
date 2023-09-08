@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * malloc_checked- a function  that returns a pointer to a newly allocated space,
- * @b:int 
+ * malloc_checked- a function  that returns a pointer t,
+ * @b:int
  * Return: pointer to the array.
  *
  */
@@ -11,7 +11,7 @@ int *r;
 r = malloc(b);
 if (r == 0)
 {
-exit (98);
+exit(98);
 }
 return (r);
 }
