@@ -27,7 +27,11 @@ while (s2[size2] != '\0')
 {
 size2++;
 }
-r = malloc((size1 *sizeof(*s1)) + (size2 *sizeof(*s2)) + 1);
+if (n >= size2)
+{
+n = size2;
+}
+r = malloc((size1 *sizeof(*s1)) + (n *sizeof(*s2)) + 1);
 if (r == 0)
 {
 return (0);
@@ -35,10 +39,6 @@ return (0);
 for (i = 0; i < size1; i++)
 {
 r[i] = s1[i];
-}
-if (n >= size2)
-{
-n = size2;
 }
 for (j = 0; j < n; j++)
 {
