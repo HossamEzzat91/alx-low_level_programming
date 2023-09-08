@@ -14,14 +14,14 @@ if (min > max)
 {
 return (NULL);
 }
-r = malloc(sizeof(int) * (max - min));
+r = malloc(sizeof(int) * (max - min + 1));
 if (r == 0)
 {
 return (0);
 }
 for (i = 0; i <= max - min; i++)
 {
-r[i] = min + i;
+r[i] = min++;
 }
 return (r);
 }
