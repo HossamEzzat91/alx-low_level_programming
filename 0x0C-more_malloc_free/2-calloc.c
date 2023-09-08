@@ -23,7 +23,7 @@ return (0);
 
 for (i = 0; i < nmemb; i++)
 {
-  ((char *)r)[i * sizeof(int)] = 0;
+((char *)r)[i * sizeof(int)] = 0;
 }
 return (r);
 }
