@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * int_dog -lowercase character
+ * init_dog -intiallize dog strcut par
  * @d:poiner of struct dog
  * @name: dog's name
  * @age: dog's age
@@ -9,8 +9,10 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
+if (d != NULL)
+{
 (*d).name = name;
 (*d).age = age;
 (*d).owner = owner;
-
+}
 }
