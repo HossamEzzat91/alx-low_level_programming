@@ -1,4 +1,4 @@
-#include"main.h"
+#include"dog.h"
 /**
  * init_dog -intiallize dog strcut par
  * @d:poiner of struct dog
