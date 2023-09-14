@@ -3,7 +3,7 @@
  * op_add - function add two int
  * @a: first no
  * @b:second no
- * 
+ *
  * Return: the sum.
  *
  */
