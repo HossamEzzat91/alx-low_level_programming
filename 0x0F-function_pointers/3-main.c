@@ -2,28 +2,29 @@
 
 /**
  * main - check the code
- *
+ * @argc:number of args
+ * @argv:value
  * Return: Always 0.
  */
 int main(int argc, char **argv)
 {
 int (*op_fc)(int, int);
 int x, y;
-if (argc !=4)
+if (argc != 4)
 {
 printf("Error\n"), exit(98);
 }
 x = atoi(argv[1]);
 y = atoi(argv[3]);
 op_fc = get_op_func(argv[2]);
-if(op_fc == NULL)
+if (op_fc == NULL)
 {
 printf("Error\n"), exit(99);
 }
-if(y == 0 && (argv[2][0] == '/' || argv [2][0] == '%'))
+if (y == 0 && (argv[2][0] == '/' || argv[2][0] == '%'))
 {
 printf("Error\n"), exit(100);
 }
 printf("%d\n", op_fc(x, y));
-return(0);
+return (0);
 }
