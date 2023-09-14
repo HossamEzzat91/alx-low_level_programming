@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 /**
  * array_iterator - writes the character c to stdout
  * @array: pointer to anme
