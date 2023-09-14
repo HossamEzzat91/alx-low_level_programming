@@ -14,9 +14,10 @@ if (array != 0 && cmp != 0 && size > 0)
 {
 for (i = 0; i < size; i++)
 {
-if (cmp(array[i] != 0)
+if (cmp(array[i]) != 0)
 {
 index = i;
+break;
 }
 }
 }
