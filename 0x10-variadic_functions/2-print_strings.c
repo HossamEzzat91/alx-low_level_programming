@@ -11,10 +11,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 unsigned int x;
 va_list argptr;
 char *s;
-if ( n == 0)
-{
-return;
-}
 va_start(argptr, n);
 for (x = 0; x < n; x++)
 {
