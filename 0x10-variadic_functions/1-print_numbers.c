@@ -14,7 +14,7 @@ va_start(argptr, n);
 for (x = 0; x < n; x++)
 {
 printf("%d", va_arg(argptr, int));
-if (x < n - 1 && separator != Null)
+if (x < n - 1 && separator != NULL)
 {
 printf("%s", separator);
 }
