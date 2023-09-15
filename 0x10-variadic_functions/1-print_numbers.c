@@ -18,6 +18,7 @@ if (x < n - 1 && separator != Null)
 {
 printf("%s", separator);
 }
+}
 printf("\n");
 va_end(argptr);
 }
