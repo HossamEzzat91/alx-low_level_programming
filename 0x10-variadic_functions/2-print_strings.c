@@ -13,7 +13,6 @@ va_list argptr;
 char *s;
 if ( n == 0)
 {
-printf("\n");
 return;
 }
 va_start(argptr, n);
