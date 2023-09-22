@@ -5,7 +5,7 @@
  *Return: void
  *
  */
-void free_list(const list_t *head)
+void free_list(list_t *head)
 {
 	list_t *current;
 	while (head != NULL)
