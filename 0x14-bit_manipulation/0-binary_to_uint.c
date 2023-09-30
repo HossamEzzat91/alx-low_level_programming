@@ -4,7 +4,7 @@
  *@b:the input binary in digit form
  *Return:the decimal equivalent
  *
- * /
+ */
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int dec = 0;
