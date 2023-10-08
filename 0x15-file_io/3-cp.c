@@ -51,13 +51,13 @@ int main(int argc, char *argv[])
 	err = close(file_from);
 	if (err == -1)
 	{
-		dprintf(2, "Error: Can't close %s\n", argv[1]);
+		dprintf(2, "Error: Can't close %d\n", file_from);
 		exit(100);
 	}
 	err = close(file_to);
 	if (err == -1)
 	{
-		dprintf(2, "Error: Can't close %s\n", argv[2]);
+		dprintf(2, "Error: Can't close %d\n", file_to);
 		exit(100);
 	}
 	return (0);
